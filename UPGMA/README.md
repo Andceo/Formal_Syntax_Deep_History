@@ -15,5 +15,5 @@ This folder contains the instructions and the files to generate the UPGMA tree i
 
 7. **Hamming**: In this folder, the analysis is reproduced using a Hamming distance instead.
 
-
+8. **Fig3.pdf**: Figure 3 from the paper.
 
