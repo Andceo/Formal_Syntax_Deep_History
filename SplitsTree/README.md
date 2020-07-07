@@ -1,7 +1,7 @@
 # Formal Syntax and Deep History - SplitsTree
 This folder contains the instructions files used in the NeighborNet analysis, through [SplitsTree](https://software-ab.informatik.uni-tuebingen.de/download/splitstree4/welcome.html) (Huson and Bryant 2006).
 
-1. **table_splitstree.nex**: this file contains the dataset in Nexus format. The only difference with the file used in the BEAST analysis is that this file contains labels rather than the full names of the languages, for visualization purposes. By opening this file with SplitsTree, you will automatically get a NeighborNet analysis, which will reproduce the network displayed in Figure 5.
+1. **table_splitstree.nex**: this file contains the dataset in Nexus format. By opening this file with SplitsTree, you will automatically get a NeighborNet analysis.
 
 2. **scores.txt**: delta scores and q-residuals from the NeighborNet analysis. In order to obtain them, do:
     * Analysis -> Compute Delta Scores
