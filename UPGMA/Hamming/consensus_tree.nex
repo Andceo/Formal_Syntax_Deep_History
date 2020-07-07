@@ -1,5 +1,5 @@
 #NEXUS
-[written Mon Jul 06 21:34:46 EDT 2020 by Mesquite  version 3.51 (build 898) at Andreas-MacBook-Air.local/10.1.10.187]
+[written Tue Jul 07 12:50:16 EDT 2020 by Mesquite  version 3.51 (build 898) at Andreas-MacBook-Air.local/10.1.10.187]
 
 BEGIN TAXA;
 	TITLE Taxa;
@@ -94,7 +94,7 @@ Begin MESQUITE;
 		MESQUITESCRIPTVERSION 2;
 		TITLE AUTO;
 		tell ProjectCoordinator;
-		timeSaved 1594085686613;
+		timeSaved 1594140616987;
 		getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa;
 		tell It;
 			setID 0 608764598328300478;
@@ -109,7 +109,7 @@ Begin MESQUITE;
 			setFontIncAnnot 0;
 			setFontIncExp 0;
 			setSize 1440 756;
-			setLocation 0 23;
+			setLocation 103 93;
 			setFont SanSerif;
 			setFontSize 10;
 			getToolPalette;
@@ -132,7 +132,7 @@ Begin MESQUITE;
 					setFontIncAnnot 0;
 					setFontIncExp 0;
 					setSize 1340 684;
-					setLocation 0 23;
+					setLocation 103 93;
 					setFont SanSerif;
 					setFontSize 10;
 					getToolPalette;
@@ -170,7 +170,7 @@ Begin MESQUITE;
 					setFontIncAnnot 0;
 					setFontIncExp 0;
 					setSize 1340 684;
-					setLocation 0 23;
+					setLocation 103 93;
 					setFont SanSerif;
 					setFontSize 10;
 					getToolPalette;

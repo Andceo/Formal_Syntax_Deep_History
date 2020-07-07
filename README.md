@@ -31,13 +31,6 @@ Scripts and data from the paper "Formal Syntax and Deep History". This material 
 
 9. **Romance**: this folder contains the material used for the analysis of the Romance languages.
 
-10. **Fig1.png**: Figure 1 from the paper (Heatmap).
-
-11. **Fig2.png**: Figure 2 from the paper (PCoA).
-
-
-
-
 
 
 

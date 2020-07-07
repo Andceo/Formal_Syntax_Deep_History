@@ -8,16 +8,9 @@ This folder contains the instructions files used in the NeighborNet analysis, th
     
 3. **delta.py**: this Python3 script creates a barplot of the delta scores derived from the NeighborNet analysis. It requires that you have the package ```matplotlib``` installed. Its syntax is ```python3 delta.py scores.txt```.
 
-5. **delta.png**: this is the output of the previous script, reported in the Supplementary Material.
+4. **qresid.py**: this Python3 script creates a barplot of the q-residuals derived from the NeighborNet analysis. It requires that you have the package ```matplotlib``` installed. Its syntax is ```python3 qresid.py scores.txt```.
 
-6. **qresid.py**: this Python3 script creates a barplot of the q-residuals derived from the NeighborNet analysis. It requires that you have the package ```matplotlib``` installed. Its syntax is ```python3 qresid.py scores.txt```.
-
-7. **qresid.png**: this is the output of the previous script, reported in the Supplementary Material.
-
-8. **splitstree_network.nex**: this is the source Nexus file for the SplitsTree network reported in the Supplementary Material.
-
-9. **splitstree_network.pdf**: this is the SplitsTree network reported in the Supplementary Material.
-
+5. **splitstree_network.nex**: this is the source Nexus file for the SplitsTree network reported in the Supplementary Material.
 
 
 

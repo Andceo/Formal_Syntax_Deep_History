@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 '''
-Author: Andrea Ceolin
+Author: anonymous
 November 2019
 '''
 
@@ -21,16 +21,15 @@ def main(file):
     #print summary statistics
     print('Median :', str(statistics.median(q)), 'Sd :', str(statistics.stdev(q)), ' Max :', str(max(q)), ' Min :',
           str(min(q)))
-
-    labels = ['Siciliano_Ragusa', 'Siciliano_Mussomeli', 'Southern_Calabrese', 'Salentino',
-              'Northern_Calabrese', 'Barese', 'Campano', 'Teramano', 'Casalasco', 'Reggiano', 'Parma',
-              'Italian', 'Spanish', 'French', 'Portuguese', 'Romanian', 'Salento_Greek', 'Calabria_Greek_1',
-              'Calabria_Greek_2', 'Greek', 'Cypriot_Greek', 'English', 'Dutch', 'Afrikaans', 'German', 'Danish',
+    labels = ['Siciliano_Ragusa', 'Siciliano_Mussomeli', 'Calabrese_Southern', 'Salentino',
+              'Calabrese_Northern', 'Barese', 'Campano', 'Teramano', 'Casalasco', 'Reggio_Emilia', 'Parma',
+              'Italian', 'Spanish', 'French', 'Portuguese', 'Romanian', 'Salento_Greek', 'Greek_Calabria_1',
+              'Greek_Calabria_2', 'Greek', 'Greek_Cypriot', 'English', 'Dutch', 'Afrikaans', 'German', 'Danish',
               'Icelandic', 'Faroese', 'Norwegian', 'Bulgarian', 'Serbo-Croatian', 'Slovenian', 'Polish', 'Russian',
               'Irish', 'Welsh', 'Marathi', 'Hindi', 'Pashto', 'Tamil', 'Telugu', 'Mandarin', 'Cantonese', 'Japanese',
-              'Korean', 'Hungarian', 'Khanti_1', 'Khanti_2', 'Estonian', 'Finnish', 'Mari_1', 'Mari_1','Udmurt_1','Udmurt_2',
+              'Korean', 'Hungarian', 'Khanty_1', 'Khanty_2', 'Estonian', 'Finnish', 'Mari_1', 'Mari_1','Udmurt_1','Udmurt_2',
               'Yukaghir', 'Even_1', 'Even_2',
-              'Evenki', 'Yakut', 'Uzbek', 'Kazakh', 'Kyrgiz', 'Turkish', 'Buryat', 'Central_Basque', 'Western_Basque',
+              'Evenki', 'Yakut', 'Uzbek', 'Kazakh', 'Kirghiz', 'Turkish', 'Buryat', 'Basque_Central', 'Basque_Western',
               'Malagasy', 'Archi', 'Lak']
     print(len(labels), len(q))
     plt.bar(labels, q, color='red')
