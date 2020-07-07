@@ -10,7 +10,9 @@ This folder contains the instructions files used in the NeighborNet analysis, th
 
 4. **qresid.py**: this Python3 script creates a scatter plot of the q-residuals derived from the NeighborNet analysis. It requires that you have the package ```matplotlib``` installed. Its syntax is ```python3 qresid.py scores.txt```.
 
-5. **splitstree_network.pdf**: this is the SplitsTree network reported in the Supplementary Material.
+5. **splitstree_network.nex**: this is the source Nexus file for the SplitsTree network reported in the Supplementary Material.
+
+6. **splitstree_network.pdf**: this is the SplitsTree network reported in the Supplementary Material.
 
 
 
