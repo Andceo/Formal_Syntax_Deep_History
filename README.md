@@ -1,7 +1,7 @@
 # Formal Syntax and Deep History
 Scripts and data from the paper "Formal Syntax and Deep History". This material is strictly confidential until the publication of the paper, after which the material will become publicly available. The repository contains the following files:
 
-1. **table.txt**: this file contains the name of the languages and their 94 associated features (with values 1, 0, ?), separated by a tab. 
+1. **table.txt**: this file contains the name of the languages and their 94 associated features (with values '1', '0', '?'), separated by a tab. 
 
 2. **lang_info.csv**: this file contains information about the languages of the dataset
 
