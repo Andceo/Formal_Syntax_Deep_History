@@ -13,7 +13,7 @@ This folder contains the instructions and the files to generate the UPGMA tree i
 
 6. **consensus_tree.nex**: The output file can be easily read using [Mesquite](http://www.mesquiteproject.org) (Maddison and Maddison 2018). Just make sure that the Newick file is in a single line. The settings of the tree in Figure 3 are saved in ```consensus-tree.nex```. Note that [FigTree](http://tree.bio.ed.ac.uk/software/figtree/) reads the consensus scores from PHYLIP files as branch lengths, and therefore opening this file with FigTree will not reproduce the same figure.
 
-7. **Hamming**: this folder reproduces the analysis using a Hamming distance instead.
+7. **Hamming**: In this folder, the analysis is reproduced using a Hamming distance instead.
 
 
 
