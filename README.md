@@ -1,7 +1,7 @@
 # Formal Syntax and Deep History
 Scripts and data from the paper "Formal Syntax and Deep History". This material is strictly confidential until the publication of the paper, after which the material will become publicly available. The repository contains the following files:
 
-1. **table.txt**: this file contains the name of the languages and their 97 associated features (with values 1, 0, ?), separated by a tab. 
+1. **table.txt**: this file contains the name of the languages and their 94 associated features (with values '1', '0', '?'), separated by a tab. 
 
 2. **lang_info.csv**: this file contains information about the languages of the dataset
 
@@ -13,7 +13,9 @@ Scripts and data from the paper "Formal Syntax and Deep History". This material 
      - Linkage Method -> Average
      - Cluster -> Rows and Columns
 
-     The clustering is used to make sure that the rows and columns are grouped according to their Jaccard distances, and not following the input order. From *Options*, we modified *Color Scheme* and uncheck the box *Relative Color Scheme*, which allowed us to force the maximum at 0.857 (which is the maximum Jaccard distance of the dataset), therefore obtaining a better resolution for the distance matrix. We also clicked on *Add Color Stop* at 0.43, and then selected the color Yellow, to obtain a better resolution of the table, so that it is easy to identify the distances on both sides of the middle.  The same file can be loaded on PAST to generate a Principle Coordinates Analysis (PCoA, which differs from the Principle Components Analysis, PCA, because it takes as input a distance matrix) by selecting:
+     The clustering is used to make sure that the rows and columns are grouped according to their Jaccard distances, and not following the input order. From *Options*, we modified *Color Scheme* and uncheck the box *Relative Color Scheme*, which allowed us to force the maximum at 0.857 (which is the maximum Jaccard distance of the dataset), therefore obtaining a better resolution for the distance matrix. We also clicked on *Add Color Stop* at 0.43, and then selected the color Yellow, to obtain a better resolution of the table, so that it is easy to identify the distances on both sides of the middle.  
+     
+     The same file can be loaded on [PAST](https://folk.uio.no/ohammer/past/) to generate a Principle Coordinates Analysis (PCoA, which differs from the Principle Components Analysis, PCA, because it takes as input a distance matrix) by selecting:
 
      - Multivariate -> Ordination -> PCoA. 
 
