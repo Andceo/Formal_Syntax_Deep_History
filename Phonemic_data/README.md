@@ -9,4 +9,4 @@ This folder contains the instructions, the xml files, the tree files, and the lo
 
 4. **tracer_ruhlen.pdf**: [Tracer](https://beast.community/tracer) analysis.
 
-
+5. **Fig5.pdf**: Figure 5 from the paper (BEAST 2 tree).
