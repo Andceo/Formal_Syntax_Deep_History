@@ -3,10 +3,10 @@
 """
 Created on Tue Jan  3 17:30:42 2017
 
-Computes quasi-jacknife distances according to the Jaccard distance (00 1? ?1 ?? ignored)
+Computes quasi-bootstrapped distance matrices according to the Jaccard distance ('00' '1?' '?1' '??' ignored)
 Assumes alphabet to be 1,0,?
 
-@authors: luca bortolussi and andrea ceolin
+@authors: anonymous and anonymous
 """
 
 
@@ -80,7 +80,7 @@ def print_distance_matrix(lang_names,dist_matrix):
 Creates a jacknifes version of the language table
 """
 
-def generate_jacknife(lang_table):
+def generate_bootstrap(lang_table):
     n = len(lang_table) #n. of langs
     c = len(lang_table[0]) #n. of pars
     #this is the table
@@ -112,7 +112,7 @@ def main(argv):
     lang_names,lang_table = loadTable(input_file)
     with open(output_file,'w') as f:
         for b in range(n_samples):
-            new_table = generate_jacknife(lang_table)
+            new_table = generate_bootstrap(lang_table)
             D = compute_distance_matrix(new_table)
             f.write(print_distance_matrix(lang_names,D))
 
