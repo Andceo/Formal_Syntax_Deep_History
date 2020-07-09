@@ -1,5 +1,12 @@
 # Formal Syntax and Deep History - RUHLEN
 This folder contains the instructions, the xml files, the tree files, and the log files used in the BEAST analysis.
+We tried different models that differ for:
+
+- Clock Model (Strict Clock, Relaxed Clock (Exponential and Logarithmic), Random Clock)
+- Tree Priors (Yule Model, Birth Death Model, Coalescent Constant Population, Coalescent Exponential Population, Coalescent Bayesian Skyline, Coalescent Extended Bayesian Skyline)
+
+The Yule Model and the Birth Death model for the tree priors yielded the highest posterior probabilities (as long as a Strict Clock or Relaxed Clock is used). The best model has a Relaxed Clock Logarithmic model, which has a slightly higher posterior probabilities mean than the Relaxed Clock Exponential model and lower standard deviation. Cf. the PDF in FigS7.
+
 
 1. **pnas1424033112.sd01.txt**: the Ruhlen dataset, from [Creanza et al. (2015)](https://www.pnas.org/content/112/5/1265).
 
